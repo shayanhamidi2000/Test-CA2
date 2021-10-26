@@ -76,5 +76,4 @@ public class PetManager {
 		List<Visit> petVisits = pet.getVisitsBetween(startDate, endDate);
 		return petVisits;
 	}
-
 }
