@@ -90,7 +90,7 @@ public class Pet extends NamedEntity {
 		this.owner = owner;
 	}
 
-	private Set<Visit> getVisitsInternal() {
+	protected Set<Visit> getVisitsInternal() {
 		if (this.visits == null) {
 			this.visits = new HashSet<>();
 		}
